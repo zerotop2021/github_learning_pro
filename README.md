@@ -1,6 +1,6 @@
 # All git commands of github ordered 🔥
 
-## conclusion for git commands  :-
+## 👍 conclusion for git commands 👍
 
 * ### for downloading project from github
 
