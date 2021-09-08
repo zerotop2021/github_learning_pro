@@ -1,4 +1,4 @@
-# Github learning pro
+# All git commands of github ordered 🔥
 
 ## conclusion for git commands  :-
 
