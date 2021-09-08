@@ -61,3 +61,13 @@ git remote -v
 git push 'remote name' 'branch name' 
 git push origin main
 ```  
+
+* how to add Contributor :- 
+
+```sheel
+     from settings
+         options 
+             Manage access
+                invite a collaborator
+```  
+   
