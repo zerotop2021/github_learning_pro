@@ -72,7 +72,7 @@ git push 'remote name' 'branch name'
 git push origin main
 ```  
 
-* ### how to add Contributor from github  ⬇️
+* ### how to add Contributors from github  ⬇️
 
 ```sheel
      from settings
