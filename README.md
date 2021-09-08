@@ -29,12 +29,14 @@ working directory
                         remote repo 
 ```
 
+***
+
 * ### for removing files from staging area :-
 
 ```shell
 git reset -- 'name of file' ,'name of another file '
 ```
-
+***
 * ### for loading files to local repo :-
 
 ``` shell
@@ -42,22 +44,23 @@ git commit -am "description"
           or 
 git commit -m "description"
 ```
-
+***
 * ### to know any branch :-
 
 ```sheel
 git branch
 ```
-
+***
 * ### to know any remoteRepo :-
 
 ```sheel
 git remote -v
 ```
-
+***
 * ### to load files to remote Repo :-
 
 ```sheel
 git push 'remote name' 'branch name' 
 git push origin main
 ```  
+***
