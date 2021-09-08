@@ -20,7 +20,7 @@ git status
 
 ``` shell
 working directory
-    git add *
+    git add *  or git add .
     git add 'name of file' 'name of another file '
         staging area
             git commit -am "description"
@@ -33,4 +33,12 @@ working directory
 
 ```shell
 git reset -- 'name of file' ,'name of another file '
+```
+
+* ### for loading files to local repo :-
+
+``` shell
+git commit -am "description"
+          or 
+git commit -m "description"
 ```
