@@ -42,3 +42,22 @@ git commit -am "description"
           or 
 git commit -m "description"
 ```
+
+* ### to know any branch :-
+
+```sheel
+git branch
+```
+
+* ### to know any remoteRepo :-
+
+```sheel
+git remote -v
+```
+
+* ### to load files to remote Repo :-
+
+```sheel
+git push 'remote name' 'branch name' 
+git push origin main
+```  
