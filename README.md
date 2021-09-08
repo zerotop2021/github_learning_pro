@@ -2,13 +2,13 @@
 
 ## 👍 conclusion for git commands 👍
 
-* ### for downloading project from github
+* ### for downloading project from github 🔽
 
 ``` Shell
 git clone "url to github project"
 ```
 
-* ### to see your state after editing on files :-
+* ### to see your state after editing on files ⬇️
 
 ``` Shell
 git status 
@@ -16,7 +16,7 @@ git status
 
 ***
 
-* ### Stages of moving files from your device to remote repo:-
+* ### Stages of moving files from your device to remote repo ⬇️
 
 ``` shell
 working directory
@@ -31,7 +31,7 @@ working directory
 
 ***
 
-* ### for removing files from staging area :-
+* ### for removing files from staging area ⬇️
 
 ```shell
 git reset -- 'name of file' ,'name of another file '
@@ -39,7 +39,7 @@ git reset -- 'name of file' ,'name of another file '
 
 ***
 
-* ### for loading files to local repo :-
+* ### for loading files to local repo ⬇️
 
 ``` shell
 git commit -am "description"
@@ -49,7 +49,7 @@ git commit -m "description"
 
 ***
 
-* ### to know any branch :-
+* ### to know any branch ⬇️
 
 ```sheel
 git branch
@@ -57,7 +57,7 @@ git branch
 
 ***
 
-* ### to know any remoteRepo :-
+* ### to know any remoteRepo ⬇️
 
 ```sheel
 git remote -v
@@ -65,7 +65,7 @@ git remote -v
 
 ***
 
-* ### to load files to remote Repo :-
+* ### to load files to remote Repo ⬇️
 
 ```sheel
 git push 'remote name' 'branch name' 
@@ -83,7 +83,7 @@ git push origin main
 
 ***
 
-* ### how to pull updating files from Remote Repo :-
+* ### how to pull updating files from Remote Repo ⬇️
 
  ```shell
 
@@ -95,7 +95,7 @@ git push origin main
 
 ***
 
-* ### stages of moving files from remote Repo to your device :-
+* ### stages of moving files from remote Repo to your device ⬇️
 
 ``` shell
 remote repo 
