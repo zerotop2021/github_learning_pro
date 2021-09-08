@@ -87,7 +87,7 @@ git push origin main
 
  ```shell
 
- 1] git pull origin main
+ 1] git fetch origin main
  2] git stash save "description"
  3] git merge
 
@@ -95,11 +95,19 @@ git push origin main
 
 ***
 
+* ### how to pull updating files from Remote Repo in one line command ⬇️
+
+``` shell
+git pull origin main
+````
+
+***
+
 * ### stages of moving files from remote Repo to your device ⬇️
 
 ``` shell
 remote repo 
-     git pull
+     git fetch
         local repo
             git stash save "description"
                 staging area
