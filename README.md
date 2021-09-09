@@ -125,7 +125,7 @@ remote repo
 
 ***
 
-* ### to erase a file from working directory and then delete it from remote Repo ⬇️
+* ### to erase a file from both the working directory remote Repo ⬇️
 
 ```shell
  1] git rm "file name"
@@ -135,7 +135,7 @@ remote repo
 
 ***
 
-* ### if you erased a file from working directory and you want delete it from remote Repo ⬇️
+* ### if you erased a file from working directory and you want erase it from remote Repo ⬇️
 
 ```shell
  1] git add "file name"
@@ -153,7 +153,7 @@ remote repo
 
 ***
 
-* ### To go back from stage area to working directory⬇️
+* ### To go back from stage area to working directory ⬇️
 
 ```shell
 git restore --staged file_name.extension
