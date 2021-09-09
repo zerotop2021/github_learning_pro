@@ -158,3 +158,45 @@ remote repo
 ```shell
 git restore --staged file_name.extension
 ```
+
+***
+
+* ### To show configuration list ⬇️
+
+```shell
+ git config -l
+```
+
+***
+
+* ### To show your username and email respectively ⬇️
+
+```shell
+git config --global user.email 
+git config --global user.name
+```
+
+***
+
+* ### To edit your username and email respectively ⬇️
+
+```shell
+git config --global user.email "email"
+git config --global user.name   "name"
+```
+
+***
+
+* ### To edit your username and email respectively another method ⬇️
+
+```shell
+git config --global --edit
+```
+
+***
+
+* ### To show configration list which related to orgin ⬇️
+
+```shell
+git config -l --show origin
+```
