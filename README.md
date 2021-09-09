@@ -214,3 +214,38 @@ git config --global --edit
 ```shell
 git config -l --show origin
 ```
+
+***
+
+* ### To generate ssh key ⬇️
+
+```shell
+To generate key :-
+   1] ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   2] add password 
+To get key :-  
+   1] cat /home/name_your_device/.ssh/id_rsa
+To add key in github :- 
+    from settings 
+        SSH and GPG keys
+           and the add SSH keys
+To test your key :- 
+    1] using command :-
+         ssh -T git@github.com
+         and then add password               
+```
+
+***
+
+* ### To load exist project to github ⬇️
+
+```shell
+    1] from folder of your project :- 
+       git init 
+    2] go to github and create repo .
+    3] choose ssh from page which appears after creating Repo 
+    and then :- 
+      1] git branch -M main
+      2] git remote add origin git@github.com:cbmbbmj/nene.git
+      3] git push -u origin main
+```
