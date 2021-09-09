@@ -194,7 +194,7 @@ git config --global --edit
 ```
 
  - ###### example on this method :- updating by using file :-
-
+```txt
 [user]
         email = person@example.com
         name = person_name
@@ -204,7 +204,7 @@ git config --global --edit
         untracked = green
 [color "branch"]
         remote = magenta
-        
+```        
 ***
 
 * ### To show configration list which related to orgin ⬇️
