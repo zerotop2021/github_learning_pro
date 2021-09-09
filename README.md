@@ -2,13 +2,13 @@
 
 ## 👍 conclusion for git commands 👍
 
-* ### for downloading project from github 🔽
+* ### For downloading project from github 🔽
 
 ``` Shell
 git clone "url to github project"
 ```
 
-* ### to see your state after editing on files ⬇️
+* ### To see your state after editing on files ⬇️
 
 ``` Shell
 git status 
@@ -31,7 +31,7 @@ working directory
 
 ***
 
-* ### for removing files from staging area ⬇️
+* ### For removing files from staging area ⬇️
 
 ```shell
 git reset -- 'name of file' ,'name of another file '
@@ -39,7 +39,7 @@ git reset -- 'name of file' ,'name of another file '
 
 ***
 
-* ### for loading files to local repo ⬇️
+* ### For loading files to local repo ⬇️
 
 ``` shell
 git commit -am "description"
@@ -49,7 +49,7 @@ git commit -m "description"
 
 ***
 
-* ### to know any branch ⬇️
+* ### To know any branch ⬇️
 
 ```sheel
 git branch
@@ -57,7 +57,7 @@ git branch
 
 ***
 
-* ### to know any remoteRepo ⬇️
+* ### To know any remoteRepo ⬇️
 
 ```sheel
 git remote -v
@@ -65,14 +65,14 @@ git remote -v
 
 ***
 
-* ### to load files to remote Repo ⬇️
+* ### To load files to remote Repo ⬇️
 
 ```sheel
 git push 'remote name' 'branch name' 
 git push origin main
 ```  
 
-* ### how to add Contributors from github  ⬇️
+* ### how To add Contributors from github  ⬇️
 
 ```sheel
      from settings
@@ -83,7 +83,7 @@ git push origin main
 
 ***
 
-* ### how to pull updating files from Remote Repo ⬇️
+* ### how To pull updating files from Remote Repo ⬇️
 
  ```shell
 
@@ -95,7 +95,7 @@ git push origin main
 
 ***
 
-* ### how to pull updating files from Remote Repo in one line command ⬇️
+* ### how To pull updating files from Remote Repo in one line command ⬇️
 
 ``` shell
 git pull origin main
@@ -103,7 +103,7 @@ git pull origin main
 
 ***
 
-* ### stages of moving files from remote Repo to your device ⬇️
+* ### Stages of moving files from remote Repo to your device ⬇️
 
 ``` shell
 remote repo 
@@ -117,7 +117,7 @@ remote repo
 
 ***
 
-* ### if you want to erase a file from working directory  ⬇️
+* ### If you want to erase a file from working directory  ⬇️
 
 ```shell
  git  rm  file_name.extention
@@ -125,7 +125,7 @@ remote repo
 
 ***
 
-* ### to erase a file from both the working directory remote Repo ⬇️
+* ### To erase a file from both the working directory remote Repo ⬇️
 
 ```shell
  1] git rm "file name"
@@ -135,7 +135,7 @@ remote repo
 
 ***
 
-* ### if you erased a file from working directory and you want erase it from remote Repo ⬇️
+* ### If you erased a file from working directory and you want erase it from remote Repo ⬇️
 
 ```shell
  1] git add/rm "file name"
@@ -145,7 +145,7 @@ remote repo
 
 ***
 
-* ### if you erased a file from working directory by mistake and want to retrieve it ⬇️
+* ### If you erased a file from working directory by mistake and want to retrieve it ⬇️
 
 ```shell
  git restore file_name.extention
