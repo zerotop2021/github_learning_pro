@@ -193,7 +193,8 @@ git config --global user.name   "name"
 git config --global --edit
 ```
 
-  ###### example on this method :- updating by using file (.gitconfig) 👍
+#### example on this method :- updating by using file (.gitconfig) 👍
+
 ```txt
 [user]
         email = person@example.com
@@ -204,7 +205,8 @@ git config --global --edit
         untracked = green
 [color "branch"]
         remote = magenta
-```        
+```
+
 ***
 
 * ### To show configration list which related to orgin ⬇️
