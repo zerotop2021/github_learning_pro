@@ -193,7 +193,7 @@ git config --global user.name   "name"
 git config --global --edit
 ```
 
- - ###### example on this method :- updating by using file :-
+ - ###### example on this method :- updating by using file (.gitconfig) 👍
 ```txt
 [user]
         email = person@example.com
