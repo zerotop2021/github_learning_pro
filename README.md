@@ -116,3 +116,45 @@ remote repo
 ```
 
 ***
+
+* ### if you want to erase a file from working directory  ⬇️
+
+```shell
+ git  rm  file_name.extention
+```
+
+***
+
+* ### to erase a file from working directory and then delete it from remote Repo ⬇️
+
+```shell
+ 1] git rm "file name"
+ 2] git commit "description"
+ 3] git push "remote repo name" "branch name"
+```
+
+***
+
+* ### if you erased a file from working directory and you want delete it from remote Repo ⬇️
+
+```shell
+ 1] git add "file name"
+ 2] git commit "description"
+ 3] git push "remote repo name" "branch name"
+```
+
+***
+
+* ### if you erased a file from working directory by mistake and want to retrieve it ⬇️
+
+```shell
+ git restore file_name.extention
+```
+
+***
+
+* ### To go back from stage area to working directory⬇️
+
+```shell
+git restore --staged file_name.extension
+```
